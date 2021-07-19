@@ -1,0 +1,110 @@
+h2{
+    color: whitesmoke;
+    border: 20px solid rgb(253, 129, 191) ;
+    border-radius: 50px;
+    background-color :  rgba(253, 66, 122, 0.863);
+    /**rgba = red, blue, gereen, alpha. Aplha defines the opacity of the color(tint effect) */
+    padding: 50px;
+    font: 4.3em 'Showcard Gothic';
+    text-align: center;
+    width: 900px;
+}
+p{
+    color: rgb(0, 16, 247);
+    /** background-color :  rgba(37, 157, 255, 0.897); */
+    padding: 2.5px;  
+    font-size:large;  
+    font-style: oblique;           
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    width : 650px;
+    display: flex;
+    justify-content: space-between ;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+/*
+.menu p{
+    position: ;
+}*/
+
+.item{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    border : 5px solid #F7F7F7;
+    border-radius: 10%;
+    width : 480px;
+    padding: 2.8px;
+    position: relative;
+}
+
+.item p{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color:rgb(64, 70, 66);
+    position:absolute;
+    top:20%;
+    left:20%;
+    transform: translate(-20%,-20%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.25;
+}
+#grad1 {
+    height: 1000px;
+    background-image: linear-gradient( lightpink, pink,violet,rgb(255, 25, 186), rgb(255, 25, 186),violet, pink, lightpink);
+}
+#grad2 {
+    height: 1000px;
+    background-image: linear-gradient(40deg,#F972FD, #CC9AFF,#AABBFF,#A7D9FA);
+}
+
+#grad3 {
+    font-size: xx-large;
+    font-family: 'Candela';
+    height: 30px;
+    background-color: #E0F0FD;
+}
+.grid{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular--portrait img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+a:link {
+    color: rgb(83, 123, 255);
+}
+a:visited{
+    color: rgb(111, 0, 255);
+}
+  
